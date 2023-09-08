@@ -136,5 +136,23 @@ itemno = 567
 price = 49.95
 myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder.format(quantity, itemno, price))
+
+
+
+def tri_recursion(k):
+  print("haha", k)
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(8)
 """
 
+
+areeb = ["rotu", "kaddu", "ullu", "kaddu" ,"dhkkan", "kaddu", "kaddu" ,"meesna"]
+areeb.sort()
+print(areeb)
